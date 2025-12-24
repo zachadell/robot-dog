@@ -1,4 +1,5 @@
 import numpy as np
+import jacobian.py as jacobian
 
 def step(vars, target_pos, func):
   current_pos = func(vars)
